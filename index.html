@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Spud Nation Survey</title>
+  <title>CodePen - Tribute Page for Taras Shevchenko - Mykola Kunderevych</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,254 +10,104 @@
 <!-- partial:index.partial.html -->
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<main id="main">
+  <h1 id="title">Taras Shevchenko</h1>
+  <p> The Ukrainian Renaissance man </p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%D0%A2._%D0%93._%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE._%D0%9A%D0%B2%D1%96%D1%82%D0%B5%D0%BD%D1%8C_1859.jpg/300px-%D0%A2._%D0%93._%D0%A8%D0%B5%D0%B2%D1%87%D0%B5%D0%BD%D0%BA%D0%BE._%D0%9A%D0%B2%D1%96%D1%82%D0%B5%D0%BD%D1%8C_1859.jpg"
+    />
+    <figcaption id="img-caption">
+      Ukrainian poet, writer, artist, public and political figure
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    
+    
+    <ul>
+      <h3>Here's a time line of Taras Shevchenko's life:</h3>
+      <li><strong>1814</strong> - Born in Cherkasy Oblast, Russian Empire (Modern day Ukraine)</li>
+      <li>
+        <strong>1822</strong> - Taras started to take some grammar classes
+      </li>
+      <li>
+        <strong>1824</strong> - Along with his father, Taras became a traveling merchant (chumak) and traveled to Zvenyhorodka, Uman, Russian Empire
+      </li>
+      <li>
+        <strong>1825</strong> - His father died as a serf in corvée
+      </li>
+      <li>
+        <strong>1825</strong> - Taras went to work for precentor (dyak) Bohorsky who had just arrived from Kyiv.
+      </li>
+      <li>
+        <strong>1833</strong> - Shevchenko painted a portrait of his master Pavlo Engelgardt 
+      </li>
+      <li>
+        <strong>1838</strong> - Famous painter and professor Karl Briullov, who donated his portrait of Russian poet Vasily Zhukovsky as a lottery prize. Its proceeds were used to buy Shevchenko's freedom on 5 May 1838.
+      </li>
+      <li>
+        <strong>1838</strong> - Shevchenko was accepted as a student into the Academy of Arts in the workshop of Karl Briullov.
+      </li>
+      <li>
+        <strong>1840</strong> - Shevchenko began writing poetry while still being a serf, and finally published his first collection of poetry, Kobzar. 
+      </li>
+      <li>
+        <strong>1844</strong> - Distressed by the condition of Ukrainian regions in the Russian Empire, Shevchenko decided to capture some of his homeland's historical ruins and cultural monuments in an album of etchings.
+      </li>
+      <li>
+        <strong>1847</strong> - Shevchenko was arrested for his poem "Dream" that mocked Tsar Nicholas and his wife.
+      </li>
+      <li><strong>1847</strong> - He was exiled as a private to the Russian military garrison in Orenburg at Orsk, near the Ural Mountains. Tsar Nicholas I, personally confirmed his sentence, added to it, "Under the strictest surveillance, without the right to write or paint."</li>
+      <li>
+        <strong>1851</strong> - He was then sent to one of the worst penal settlements, the remote fortress of Novopetrovsk at Mangyshlak Peninsula.
+      </li>
+      <li>
+        <strong>1857</strong> - Shevchenko finally returned from exile after receiving amnesty from a new emperor, though he was not permitted to return to St. Petersburg and was forced to stay in Nizhniy Novgorod.
+      </li>
+      <li><strong>1861</strong> - Died at the age of 47.</li>
+    </ul>
+ <div id="paintings">
+         <h3>Paintings</h3>  
+   <img
+      id="painting1"
+          src="https://uploads7.wikiart.org/images/taras-shevchenko/the-gypsy-fortune-teller-1841.jpg!PinterestSmall.jpg"
+     />  
+ 
+    <img
+      id="painting2"
+    src="https://uploads3.wikiart.org/images/taras-shevchenko/kateryna-1842(1).jpg!PinterestSmall.jpg"
+      />
 
-<img src="https://steamuserimages-a.akamaihd.net/ugc/260461180136207656/E1C5AA59D43FB13B66EE86B4468F0EC27974F75C/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true">
-<h1 id="title">Spud Nation Application</h1>
-<div id="form-outer">
-  <p id="description">Application for Spud Nation Visa </p>
-  <form id="survey-form" method="GET">
-    <div class="rowTab">
-      <div class="labels">
-        <label id="name-label" for="name"> Name: </label>
-      </div>
-      <div class="rightTab">
-        <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="email-label" for="email"> SSN: </label>
-      </div>
-      <div class="rightTab">
-        <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Social Security Number">
-      </div>
-    </div>
-    <div class="rowTab">
-      <div class="labels">
-        <label id="number-label" for="age"> Age: </label>
-      </div>
-      <div class="rightTab">
-        <input type="number" name="age" id="number" min="1" max="111" class="input-field" placeholder="Age in Potatoe Years">
-      </div>
-    </div>
-    
-    <div class="rowTab">
-      <div class="labels">
-        <label for="version">Which version of Potatoe <br> do you like the most?</label>
-      </div>
-      <div class="rightTab">
-        <select id="dropdown" name="version" class="dropdown">
-          <option disabled value>
-            Select an option
-          </option>
-          <option value="Potatoe">
-            Potatoe
-          </option>    
-          <option value="Spud">
-            Spud
-          </option>
-          <option value="emoji">🥔</option>
-        </select>          
-      </div>
-    </div>
-         
-    <!--How often do you listen to music?-->
-    
-    <div class="rowTab">
-      <div class="labels">
-        <label for="user-option">How often do you eat potatoes?</label>
-      </div>
-      <div class="rightTab">
-        <ul>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="1" type="radio" class="user-option">Every meal of the day
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="2" type="radio" class="user-option">One time per day              
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="3" type="radio" class="user-option">1-6 times per week              
-            </label>            
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="4" type="radio" class="user-option">3 times per month              
-            </label>            
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="5" type="radio" class="user-option">Less than a month
-            </label>            
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="rowTab">
-      <div class="labels">
-        <label for="when-listen">How do you like your potatoes<br>(Check all that apply): </label>
-      </div>
-      <div class="rightTab">
-        <ul id="when-listen">
-          <li class="checkbox"><label>
-            <input name="checkbox" value="1" type="checkbox" class="user-option">Raw (straigt from the earth)
-          </label></li>
-          <li class="checkbox"><label>
-            <input name="checkbox" value="2" type="checkbox" class="user-option">Boiled
-            </label></li>
-          <li class="checkbox"><label>
-            <input name="checkbox" value="3" type="checkbox" class="user-option">Steamed
-            </label></li>
-          <li class="checkbox"><label>
-            <input name="checkbox" value="4" type="checkbox" class="user-option">Baked
-            </label></li>
-          <li class="checkbox"><label>
-            <input name="checkbox" value="5" type="checkbox" class="user-option">Grilled
-          </label></li>
-          <li class="checkbox">
-            <label>
-              <input name="checkbox" value="6" type="checkbox" class="user-option">           Other
-              <input type="text" name="additional-option" class="mini-input" placeholder="please specify">
-            </label>
-           </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="rowTab">
-      <div class="labels">
-        <label for="how-long">
-          How long do you plan on visiting Spud Nation?
-        </label>
-      </div>
-      <div class="rightTab">
-        <ul>
-          <li class="radio">
-            <label>              
-              <input name="radio-buttons" value="1" type="radio" class="user-option">Less than 3 months
-            </label>
-          </li>
-          <li class="radio">
-            <label>               
-              <input name="radio-buttons" value="2" type="radio" class="user-option">3-6 months
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="3" type="radio" class="user-option">6 months - 1 year 
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="4" type="radio" class="user-option">More than a year 
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              I want immigrate to Spud Nation
-              <input name="radio-buttons" value="5" type="radio" class="user-option">
-            </label>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="rowTab">
-      <div class="labels"> 
-        <labels for="how-U-know"> 
-          Why do you want to come to Spud Nation?
-        </label>
-      </div>
-      <div class="rightTab">
-        <ul id="how-U-know">
-          <li class="checkbox">
-            <label>
-              <input name="how-know" value="1" type="checkbox" class="user-option">Visting Friends/Relatives
-            </label>            
-          </li>
-          <li class="checkbox">
-            <label>
-              <input name="how-know" value="2" type="checkbox" class="user-option">Buisness
-            </label>            
-          </li>
-          <li class="checkbox">
-            <label>
-              <input name="how-know" value="3" type="checkbox" class="user-option">Vacation
-            </label>            
-          </li>
-          <li class="checkbox">
-            <label>
-              <input name="how-know" value="4" type="checkbox" class="user-option">Because Potatoe
-            </label>            
-          </li>
-          <li class="checkbox">       
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="rowTab">
-      <div class="labels">
-        <label for="user-option">Overall, how much do you love potatoes?
-      </div>
-      <div class="rightTab">
-        <ul>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="1" type="radio" class="user-option">Hate it
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="2" type="radio" class="user-option">Meh
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="3" type="radio" class="user-option">Neutral
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="4" type="radio" class="user-option">Like it
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="5" type="radio" class="user-option">Love it!
-            </label>
-          </li>
-          <li class="radio">
-            <label>
-              <input name="radio-buttons" value="6" type="radio" class="user-option">Potatoe is Life!
-            </label>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="rowTab">
-      <div class="labels">
-        <label for="suggestions">How would you like us to improve Spud Nation?</label>        
-      </div>
-        <div class="rightTab">
-          <textarea id="suggestions" class="input-field" name="suggestions" placeholder="Enter your suggestions here..."></textarea>
-      </div>
-    </div>
-    <hr>
-    <div>
-      <p class="thank-you">Thank you for applying!</p>
-    </div>
-    <button id="submit" type="submit">Submit</button>
-  </form>
-</div>
-<!-- partial -->
+    <img
+      id="painting3"           
+    src="https://uploads6.wikiart.org/images/taras-shevchenko/peasant-family-1843.jpg!PinterestSmall.jpg"
+    />
+   </div>
+   </section> 
+    <h3>
+      Read more about Taras Shevchenko
+      <a
+        id="tribute-link"
+        href="https://en.wikipedia.org/wiki/Taras_Shevchenko"
+        target="_blank"
+        >Wikipedia</a
+      >.
+    </h3>
   
+</main>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
 </html>
